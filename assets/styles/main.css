@@ -9,15 +9,17 @@
   --font-Roboto: "Roboto", sans-serif;
   --color-white: #ffffff;
   --color-poppins: "Poppins", sans-serif;
-  --bg-color : #ffffff;
+  --bg-color: #ffffff;
+
 }
-.crescent-moon{
+.crescent-moon {
   --color-Black: #ffffff;
   --color-Gainsboro: #000000;
   --font-Roboto: "Roboto", sans-serif;
   --color-white: #000000;
   --color-poppins: "Poppins", sans-serif;
-  --bg-color : #11132c;
+  --bg-color: #11132c;
+
 }
 body {
   font-family: "Roboto", serif;
@@ -78,7 +80,8 @@ a {
 header {
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #78787b ;
+  border-bottom: 1px solid #78787b;
+  background-color: var(--color-white);
 }
 
 @media (max-width: 991px) {
@@ -87,6 +90,7 @@ header {
   }
   .fa-bars {
     display: block;
+    color: #8286c1;
   }
   header nav ul.opn {
     display: block;
@@ -104,4 +108,38 @@ header {
 .crescent {
   width: 25px;
   cursor: pointer;
+}
+.containe {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.containe,
+.nlock-your {
+  flex: 1;
+  flex-wrap: wrap;
+  display: flex;
+}
+.containe img {
+  max-width: 100%;
+  height: auto;
+}
+.potential-with h1 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 55px;
+}
+button {
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+.potential-with {
+  margin: -200px 0 0 5%;
 }
