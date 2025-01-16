@@ -92,6 +92,7 @@ header {
   .fa-bars {
     display: block;
     color: #8286c1;
+    margin-right: 7px;
   }
   header nav ul.opn {
     display: block;
