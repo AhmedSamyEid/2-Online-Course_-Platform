@@ -53,7 +53,6 @@ section {
 .logo a {
   font-size: 28px;
   font-weight: 500;
-  
 }
 ul {
   display: flex;
@@ -110,4 +109,46 @@ header {
 .crescent {
   width: 25px;
   cursor: pointer;
+}
+.containe,
+.nlock-your {
+  flex: 1;
+  flex-wrap: wrap;
+  display: block;
+}
+.containe img,
+.webp img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.Courses {
+  display: flex;
+  color: var(--color-Black);
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.explore-courses,
+.gallery-containor {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.image-item img {
+  max-width: 100%;
+  height: auto;
+}
+.gallery-containor {
+  display: flex;
+  justify-content: space-around;
+  color: var(--color-Black);
+}
+.image-item {
+  border: 1px solid rgb(137, 136, 136);
+}
+.image-item img {
+  width: 340px;
+  height: 340px;
 }
