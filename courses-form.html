@@ -26,25 +26,64 @@
             <li><a href="#next">Next</a></li>
             <li><a href="#Submit">Submit</a></li>
             <img
-            class="crescent"
-            src="assets/icons/crescent moon.webp"
-            id="crescent-moon"
-            alt="crescent moon"
-          />
-          <div class="search-in-site">
-            <input
-              class="in"
-              type="text"
-              id="search-in-site"
-              name="search-in-site"
-              placeholder="Search in site"
+              class="crescent"
+              src="assets/icons/crescent moon.webp"
+              id="crescent-moon"
+              alt="crescent moon"
             />
-          </div>
+            <div class="search-in-site">
+              <input
+                class="in"
+                type="text"
+                id="search-in-site"
+                name="search-in-site"
+                placeholder="Search in site"
+              />
+            </div>
           </ul>
-          
         </nav>
       </div>
     </header>
+    <main>
+      <section class="form-section">
+        <div class="form-container">
+            <h2>My Enrollment Form</h2>
+            <form>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="buttons">
+                    <button>Male</button>
+                    <button>Female</button>
+                    <button>Other</button>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button type="button" class="next">Next</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    </main>
     <script src="assets/script/form.js"></script>
   </body>
 </html>
