@@ -47,75 +47,148 @@
     <main>
       <section class="form-section">
         <div class="form-container">
-            <h2>My Enrollment Form</h2>
-            <form>
-                <div class="row">
-                    <div class="form-group">
-                        <label for="full-name">Full Name</label>
-                        <input type="text" id="full-name" placeholder="Enter your full name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Enter your email">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" placeholder="Enter your phone number">
-                    </div>
-                    <div class="form-group">
-                        <label for="dob">Date of Birth</label>
-                        <input type="date" id="dob">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Gender</label>
-                    <div class="buttons">
-                    <button>Male</button>
-                    <button>Female</button>
-                    <button>Other</button>
-                    </div>
-                </div>
-                <div class="button-group">
-                    <button type="button" class="next">Next</button>
-                </div>
-            </form>
+          <h2>My Enrollment Form</h2>
+          <form>
+            <div class="row">
+              <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input
+                  type="text"
+                  id="full-name"
+                  placeholder="Enter your full name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+              <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Gender</label>
+              <div class="buttons">
+                <button>Male</button>
+                <button>Female</button>
+                <button>Other</button>
+              </div>
+            </div>
+            <div class="button-group">
+              <button type="button" class="next">Next</button>
+            </div>
+          </form>
         </div>
-    </section>
-    <section class="course-section">
-      <div class="course-container">
+      </section>
+      <section class="course-section">
+        <div class="course-container">
           <h2>Course Selection</h2>
           <form>
-              <div class="form-group">
-                  <label>Course Name</label>
-                  <div class="button-options">
-                      <button type="button" class="option-btn" data-value="course-a">Course A</button>
-                      <button type="button" class="option-btn" data-value="course-b">Course B</button>
-                      <button type="button" class="option-btn" data-value="course-c">Course C</button>
-                  </div>
-                  <input type="hidden" name="course" id="selected-course">
+            <div class="form-group">
+              <label>Course Name</label>
+              <div class="button-options">
+                <button type="button" class="option-btn" data-value="course-a">
+                  Course A
+                </button>
+                <button type="button" class="option-btn" data-value="course-b">
+                  Course B
+                </button>
+                <button type="button" class="option-btn" data-value="course-c">
+                  Course C
+                </button>
               </div>
-              <div class="form-group">
-                  <label>Preferred Start Date</label>
-                  <input type="text" name="start-date">
+              <input type="hidden" name="course" id="selected-course" />
+            </div>
+            <div class="form-group">
+              <label>Preferred Start Date</label>
+              <input type="text" name="start-date" />
+            </div>
+            <div class="form-group">
+              <label>Preferred Time</label>
+              <div class="button-options">
+                <button type="button" class="option-btn" data-value="morning">
+                  Morning
+                </button>
+                <button type="button" class="option-btn" data-value="afternoon">
+                  Afternoon
+                </button>
+                <button type="button" class="option-btn" data-value="evening">
+                  Evening
+                </button>
               </div>
-              <div class="form-group">
-                  <label>Preferred Time</label>
-                  <div class="button-options">
-                      <button type="button" class="option-btn" data-value="morning">Morning</button>
-                      <button type="button" class="option-btn" data-value="afternoon">Afternoon</button>
-                      <button type="button" class="option-btn" data-value="evening">Evening</button>
-                  </div>
-                  <input type="hidden" name="time" id="selected-time">
-              </div>
-              <div class="button-group">
-                  <button type="button" class="back">Back</button>
-                  <button type="submit" class="next">Next</button>
-              </div>
+              <input type="hidden" name="time" id="selected-time" />
+            </div>
+            <div class="button-group">
+              <button type="button" class="back">Back</button>
+              <button type="submit" class="next">Next</button>
+            </div>
           </form>
-      </div>
-  </section>
+        </div>
+      </section>
+      <section class="payment-section">
+        <div class="payment-container">
+          <h2>Payment Details</h2>
+          <form>
+            <div class="group">
+              <div class="form-group">
+                <label for="card-number">Credit Card Number</label>
+                <input
+                  type="text"
+                  id="card-number"
+                  name="card-number"
+                  placeholder="Enter your credit card number"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="expiry-date">Expiration Date</label>
+                <input
+                  type="text"
+                  id="expiry-date"
+                  name="expiry-date"
+                  placeholder="MM/YY"
+                />
+              </div>
+            </div>
+            <div class="group">
+              <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input
+                  type="text"
+                  id="cvv"
+                  name="cvv"
+                  placeholder="Enter your CVV"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="billing-address">Billing Address</label>
+                <input
+                  type="text"
+                  id="billing-address"
+                  name="billing-address"
+                  placeholder="Enter your billing address"
+                />
+              </div>
+            </div>
+            <div class="button-group">
+              <button type="button" class="back">Back</button>
+              <button type="submit" class="next">Next</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
     <script src="assets/script/form.js"></script>
   </body>
