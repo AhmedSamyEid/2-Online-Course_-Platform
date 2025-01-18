@@ -112,14 +112,12 @@ header {
   height: 100vh;
   padding: 20px;
 }
-
 .form-container {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
   width: 100%;
 }
-
 h2 {
   font-weight: 700;
   font-size: 30px;
@@ -127,13 +125,11 @@ h2 {
   text-align: center;
   color: var(--color-Black);
 }
-
 .row {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
-
 .form-group {
   flex: 1;
   margin-bottom: 15px;
@@ -143,7 +139,6 @@ h2 {
   margin: 0 10px;
   cursor: pointer;
 }
-
 label {
   display: block;
   margin-bottom: 5px;
@@ -151,7 +146,6 @@ label {
   font-size: 14px;
   color: var(--color-Black);
 }
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -164,12 +158,10 @@ input[type="date"] {
   outline: none;
   background-color: #f5f5f5;
 }
-
 .button-group {
   text-align: center;
   margin-top: 20px;
 }
-
 .next {
   background-color: #000;
   color: #ffffff;
@@ -180,7 +172,6 @@ input[type="date"] {
   cursor: pointer;
   transition: all 0.5s;
 }
-
 .next:hover {
   background-color: #504c4c;
 }
@@ -192,7 +183,6 @@ input[type="date"] {
   height: 100vh;
   padding: 20px;
 }
-
 .course-container {
   padding: 20px 40px;
   border-radius: 8px;
@@ -200,30 +190,23 @@ input[type="date"] {
   max-width: 800px;
   width: 100%;
 }
-
 h2 {
   margin: 0 0 20px;
   font-size: 24px;
   text-align: center;
   color: var(--color-Black);
 }
-
-.form-group {
-  margin-bottom: 20px;
-}
-
 label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 14px;
 }
-
 .button-options {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
-
 .option-btn {
   background-color: #f5f5f5;
   color: #333;
@@ -233,32 +216,26 @@ label {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 .option-btn:hover {
   background-color: #ddd;
 }
-
 .option-btn.active {
   background-color: #007bff;
   color: #fff;
   border-color: #007bff;
 }
-
 input[type="text"] {
   width: 100%;
-
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 4px;
   outline: none;
   background-color: #f5f5f5;
 }
-
 .button-group {
   text-align: center;
   margin-top: 20px;
 }
-
 button {
   background-color: #000;
   color: #fff;
@@ -271,16 +248,13 @@ button {
   transition: all 0.5s;
   margin: 10px 10px;
 }
-
 button:hover {
   background-color: #ffffff;
 }
-
 .back {
   border: 1px solid #aaa;
   background-color: #ffffff00;
 }
-
 .back:hover {
   background-color: #aaa;
 }
@@ -298,17 +272,12 @@ button:hover {
   max-width: 900px;
   width: 100%;
 }
-.form-group {
-  margin-bottom: 20px;
-}
-
 label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 14px;
 }
-
 input[type="text"] {
   width: 100%;
   padding: 10px;
@@ -318,18 +287,38 @@ input[type="text"] {
   outline: none;
   background-color: #f5f5f5;
 }
-
 input[type="text"]:focus {
   border-color: #007bff;
   background-color: #fff;
 }
-
 .back {
   background-color: #ccc;
   color: #000;
 }
-
 .group {
   display: flex;
   gap: 25px;
+}
+.account-setup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+  padding: 20px;
+}
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.back {
+  background-color: #ccc;
+  color: #000;
 }
